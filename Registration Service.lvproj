@@ -56,12 +56,12 @@
 			<Item Name="regser Check Loop Error.vi" Type="VI" URL="../support/regser Check Loop Error.vi"/>
 			<Item Name="regser Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/regser Error Handler - Event Handling Loop.vi"/>
 			<Item Name="regser Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop.vi"/>
+			<Item Name="regser Error Handler - Message Handling Loop config.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop config.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
+			<Item Name="config Data.ctl" Type="VI" URL="../controls/config Data.ctl"/>
 			<Item Name="regser UI Data.ctl" Type="VI" URL="../controls/regser UI Data.ctl"/>
 		</Item>
-		<Item Name="config Data.ctl" Type="VI" URL="../controls/config Data.ctl"/>
-		<Item Name="regser Error Handler - Message Handling Loop config.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop config.vi"/>
 		<Item Name="regser Main.vi" Type="VI" URL="../regser Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -110,7 +110,7 @@
 			<Item Name="read_conf_testlog.vi" Type="VI" URL="../dependencies/read_conf_testlog.vi"/>
 			<Item Name="read_file_type_extension_to_search.vi" Type="VI" URL="../dependencies/read_file_type_extension_to_search.vi"/>
 			<Item Name="read_http_timeout.vi" Type="VI" URL="../dependencies/read_http_timeout.vi"/>
-			<Item Name="status_LED.ctl" Type="VI" URL="../../Register-Service/Type Definitions/status_LED.ctl"/>
+			<Item Name="status_LED.ctl" Type="VI" URL="../Type Definitions/status_LED.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
