@@ -110,6 +110,7 @@
 			<Item Name="color_selector.vi" Type="VI" URL="../dependencies/color_selector.vi"/>
 			<Item Name="create_test_log_folder.vi" Type="VI" URL="../Create Test Log Folder/create_test_log_folder.vi"/>
 			<Item Name="create_test_log_folder_states.ctl" Type="VI" URL="../Create Test Log Folder/Type Definitions/create_test_log_folder_states.ctl"/>
+			<Item Name="file_counter_function.vi" Type="VI" URL="../dependencies/file_counter_function.vi"/>
 			<Item Name="get_files_info.vi" Type="VI" URL="../dependencies/get_files_info.vi"/>
 			<Item Name="initi_config.vi" Type="VI" URL="../init_config/initi_config.vi"/>
 			<Item Name="LED_colors.vi" Type="VI" URL="../dependencies/LED_colors.vi"/>
