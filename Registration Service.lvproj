@@ -62,6 +62,7 @@
 			<Item Name="config Data.ctl" Type="VI" URL="../controls/config Data.ctl"/>
 			<Item Name="regser UI Data.ctl" Type="VI" URL="../controls/regser UI Data.ctl"/>
 		</Item>
+		<Item Name="init_config_data.ctl" Type="VI" URL="../init_config/typedef/init_config_data.ctl"/>
 		<Item Name="regser Main.vi" Type="VI" URL="../regser Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -87,6 +88,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -94,6 +96,7 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -104,13 +107,22 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="color_selector.vi" Type="VI" URL="../dependencies/color_selector.vi"/>
 			<Item Name="create_test_log_folder.vi" Type="VI" URL="../Create Test Log Folder/create_test_log_folder.vi"/>
 			<Item Name="create_test_log_folder_states.ctl" Type="VI" URL="../Create Test Log Folder/Type Definitions/create_test_log_folder_states.ctl"/>
+			<Item Name="get_files_info.vi" Type="VI" URL="../dependencies/get_files_info.vi"/>
+			<Item Name="initi_config.vi" Type="VI" URL="../init_config/initi_config.vi"/>
+			<Item Name="LED_colors.vi" Type="VI" URL="../dependencies/LED_colors.vi"/>
 			<Item Name="read_conf_endpoint.vi" Type="VI" URL="../dependencies/read_conf_endpoint.vi"/>
 			<Item Name="read_conf_testlog.vi" Type="VI" URL="../dependencies/read_conf_testlog.vi"/>
 			<Item Name="read_file_type_extension_to_search.vi" Type="VI" URL="../dependencies/read_file_type_extension_to_search.vi"/>
 			<Item Name="read_http_timeout.vi" Type="VI" URL="../dependencies/read_http_timeout.vi"/>
+			<Item Name="read_timer_holding_time.vi" Type="VI" URL="../../Registration-Service/dependencies/read_timer_holding_time.vi"/>
+			<Item Name="show_&amp;_clean_errors.vi" Type="VI" URL="../dependencies/show_&amp;_clean_errors.vi"/>
+			<Item Name="split_and_queue_string.vi" Type="VI" URL="../init_config/dependencies/split_and_queue_string.vi"/>
+			<Item Name="split_state_and_arguments.vi" Type="VI" URL="../init_config/dependencies/split_state_and_arguments.vi"/>
 			<Item Name="status_LED.ctl" Type="VI" URL="../Type Definitions/status_LED.ctl"/>
+			<Item Name="string_to_array.vi" Type="VI" URL="../init_config/dependencies/string_to_array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
