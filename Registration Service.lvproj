@@ -20,6 +20,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Global" Type="Folder">
+			<Item Name="timer.vi" Type="VI" URL="../global/timer.vi"/>
+		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Documentation Images" Type="Folder">
@@ -57,12 +60,14 @@
 			<Item Name="regser Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/regser Error Handler - Event Handling Loop.vi"/>
 			<Item Name="regser Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop.vi"/>
 			<Item Name="regser Error Handler - Message Handling Loop config.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop config.vi"/>
+			<Item Name="regser Error Handler - Message Handling Loop timer.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop timer.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="config Data.ctl" Type="VI" URL="../controls/config Data.ctl"/>
+			<Item Name="init_config_data.ctl" Type="VI" URL="../init_config/typedef/init_config_data.ctl"/>
 			<Item Name="regser UI Data.ctl" Type="VI" URL="../controls/regser UI Data.ctl"/>
+			<Item Name="Timer Loop Data.ctl" Type="VI" URL="../controls/Timer Loop Data.ctl"/>
 		</Item>
-		<Item Name="init_config_data.ctl" Type="VI" URL="../init_config/typedef/init_config_data.ctl"/>
 		<Item Name="regser Main.vi" Type="VI" URL="../regser Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -123,6 +128,8 @@
 			<Item Name="split_and_queue_string.vi" Type="VI" URL="../init_config/dependencies/split_and_queue_string.vi"/>
 			<Item Name="split_state_and_arguments.vi" Type="VI" URL="../init_config/dependencies/split_state_and_arguments.vi"/>
 			<Item Name="status_LED.ctl" Type="VI" URL="../Type Definitions/status_LED.ctl"/>
+			<Item Name="stop_watch_w_feedback_node.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node.vi"/>
+			<Item Name="stopwatch_kernel.vi" Type="VI" URL="../Stopwatch/stopwatch_kernel.vi"/>
 			<Item Name="string_to_array.vi" Type="VI" URL="../init_config/dependencies/string_to_array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
