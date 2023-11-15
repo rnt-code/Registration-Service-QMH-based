@@ -89,6 +89,7 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
@@ -112,6 +113,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="4-letteres_random_string_gen.vi" Type="VI" URL="../dependencies/4-letteres_random_string_gen.vi"/>
 			<Item Name="color_selector.vi" Type="VI" URL="../dependencies/color_selector.vi"/>
 			<Item Name="create_test_log_folder.vi" Type="VI" URL="../Create Test Log Folder/create_test_log_folder.vi"/>
 			<Item Name="create_test_log_folder_states.ctl" Type="VI" URL="../Create Test Log Folder/Type Definitions/create_test_log_folder_states.ctl"/>
@@ -119,6 +121,7 @@
 			<Item Name="get_files_info.vi" Type="VI" URL="../dependencies/get_files_info.vi"/>
 			<Item Name="initi_config.vi" Type="VI" URL="../init_config/initi_config.vi"/>
 			<Item Name="LED_colors.vi" Type="VI" URL="../dependencies/LED_colors.vi"/>
+			<Item Name="move_and_rename.vi" Type="VI" URL="../dependencies/move_and_rename.vi"/>
 			<Item Name="read_conf_endpoint.vi" Type="VI" URL="../dependencies/read_conf_endpoint.vi"/>
 			<Item Name="read_conf_testlog.vi" Type="VI" URL="../dependencies/read_conf_testlog.vi"/>
 			<Item Name="read_file_type_extension_to_search.vi" Type="VI" URL="../dependencies/read_file_type_extension_to_search.vi"/>
