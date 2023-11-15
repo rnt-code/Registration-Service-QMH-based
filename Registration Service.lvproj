@@ -69,6 +69,7 @@
 			<Item Name="Timer Loop Data.ctl" Type="VI" URL="../controls/Timer Loop Data.ctl"/>
 		</Item>
 		<Item Name="regser Main.vi" Type="VI" URL="../regser Main.vi"/>
+		<Item Name="send_false_case.vi" Type="VI" URL="../dependencies/send_false_case.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -94,6 +95,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -102,6 +104,8 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -122,11 +126,16 @@
 			<Item Name="initi_config.vi" Type="VI" URL="../init_config/initi_config.vi"/>
 			<Item Name="LED_colors.vi" Type="VI" URL="../dependencies/LED_colors.vi"/>
 			<Item Name="move_and_rename.vi" Type="VI" URL="../dependencies/move_and_rename.vi"/>
+<<<<<<< Updated upstream
+=======
+			<Item Name="parser_server_response.vi" Type="VI" URL="../dependencies/parser_server_response.vi"/>
+>>>>>>> Stashed changes
 			<Item Name="read_conf_endpoint.vi" Type="VI" URL="../dependencies/read_conf_endpoint.vi"/>
 			<Item Name="read_conf_testlog.vi" Type="VI" URL="../dependencies/read_conf_testlog.vi"/>
 			<Item Name="read_file_type_extension_to_search.vi" Type="VI" URL="../dependencies/read_file_type_extension_to_search.vi"/>
 			<Item Name="read_http_timeout.vi" Type="VI" URL="../dependencies/read_http_timeout.vi"/>
 			<Item Name="read_timer_holding_time.vi" Type="VI" URL="../../Registration-Service/dependencies/read_timer_holding_time.vi"/>
+			<Item Name="send_json_http_post.vi" Type="VI" URL="../dependencies/send_json_http_post.vi"/>
 			<Item Name="show_&amp;_clean_errors.vi" Type="VI" URL="../dependencies/show_&amp;_clean_errors.vi"/>
 			<Item Name="split_and_queue_string.vi" Type="VI" URL="../init_config/dependencies/split_and_queue_string.vi"/>
 			<Item Name="split_state_and_arguments.vi" Type="VI" URL="../init_config/dependencies/split_state_and_arguments.vi"/>
