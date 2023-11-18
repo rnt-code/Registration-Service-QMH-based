@@ -53,9 +53,9 @@
 		</Item>
 		<Item Name="init_config" Type="Folder">
 			<Item Name="typedef" Type="Folder">
-				<Item Name="init_config_data.ctl" Type="VI" URL="../init_config/typedef/init_config_data.ctl"/>
+				<Item Name="init_config_data.ctl" Type="VI" URL="../Initial Configuration/typedef/init_config_data.ctl"/>
 			</Item>
-			<Item Name="initi_config.vi" Type="VI" URL="../init_config/initi_config.vi"/>
+			<Item Name="initial_config.vi" Type="VI" URL="../Initial Configuration/initial_config.vi"/>
 		</Item>
 		<Item Name="miscellaneous" Type="Folder">
 			<Item Name="images" Type="Folder">
@@ -83,6 +83,9 @@
 			<Item Name=".$Diagrama de flujo del programa.drawio.bkp" Type="Document" URL="../miscellaneous/.$Diagrama de flujo del programa.drawio.bkp"/>
 			<Item Name="Diagrama de flujo del programa.drawio" Type="Document" URL="../miscellaneous/Diagrama de flujo del programa.drawio"/>
 			<Item Name="Diagrama de flujo del programa.drawio.pdf" Type="Document" URL="../miscellaneous/Diagrama de flujo del programa.drawio.pdf"/>
+		</Item>
+		<Item Name="queue sm support" Type="Folder" URL="../queue sm support">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Stopwatch" Type="Folder">
 			<Item Name="stop_watch_w_feedback_node.vi" Type="VI" URL="../Stopwatch/stop_watch_w_feedback_node.vi"/>
