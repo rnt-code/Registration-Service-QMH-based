@@ -48,6 +48,9 @@
 			<Item Name="noloc_tip.png" Type="Document" URL="../documentation/noloc_tip.png"/>
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
+		<Item Name="Get Test Log Files" Type="Folder" URL="../Get Test Log Files">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="global" Type="Folder">
 			<Item Name="timer.vi" Type="VI" URL="../global/timer.vi"/>
 		</Item>
@@ -104,8 +107,6 @@
 			<Item Name="regser Error Handler - Message Handling Loop timer.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop timer.vi"/>
 			<Item Name="regser Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/regser Error Handler - Message Handling Loop.vi"/>
 		</Item>
-		<Item Name="get_test_log_files.vi" Type="VI" URL="../Get Test Log Files/get_test_log_files.vi"/>
-		<Item Name="get_test_log_files_data.ctl" Type="VI" URL="../Get Test Log Files/Type Definitions/get_test_log_files_data.ctl"/>
 		<Item Name="reg_service_config.ini" Type="Document" URL="../reg_service_config.ini"/>
 		<Item Name="regser Main.vi" Type="VI" URL="../regser Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
