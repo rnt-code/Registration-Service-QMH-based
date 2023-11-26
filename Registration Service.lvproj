@@ -17,9 +17,6 @@
 			<Item Name="status_LED.ctl" Type="VI" URL="../controls/status_LED.ctl"/>
 			<Item Name="Timer Loop Data.ctl" Type="VI" URL="../controls/Timer Loop Data.ctl"/>
 		</Item>
-		<Item Name="Create Test Log Folder" Type="Folder" URL="../Create Test Log Folder">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="dependencies" Type="Folder" URL="../dependencies">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -54,11 +51,8 @@
 		<Item Name="global" Type="Folder">
 			<Item Name="timer.vi" Type="VI" URL="../global/timer.vi"/>
 		</Item>
-		<Item Name="init_config" Type="Folder">
-			<Item Name="typedef" Type="Folder">
-				<Item Name="init_config_data.ctl" Type="VI" URL="../Initial Configuration/typedef/init_config_data.ctl"/>
-			</Item>
-			<Item Name="initial_config.vi" Type="VI" URL="../Initial Configuration/initial_config.vi"/>
+		<Item Name="Initial Configuration" Type="Folder" URL="../Initial Configuration">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="miscellaneous" Type="Folder">
 			<Item Name="images" Type="Folder">
@@ -87,7 +81,7 @@
 			<Item Name="Diagrama de flujo del programa.drawio" Type="Document" URL="../miscellaneous/Diagrama de flujo del programa.drawio"/>
 			<Item Name="Diagrama de flujo del programa.drawio.pdf" Type="Document" URL="../miscellaneous/Diagrama de flujo del programa.drawio.pdf"/>
 		</Item>
-		<Item Name="queue sm support" Type="Folder" URL="../queue sm support">
+		<Item Name="queued sm support" Type="Folder" URL="../queued sm support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Stopwatch" Type="Folder">
