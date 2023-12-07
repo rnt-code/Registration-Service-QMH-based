@@ -162,6 +162,48 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Registration Service v1.0" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{84BED059-2E4F-4E6B-94FF-D06D991B0CBA}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{512D1905-A48B-4ABB-85E5-6F539799A282}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5882E2E3-5CF4-41B4-88A5-95B2AFAFC31D}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Registration Service v1.0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Registration Service v1.0</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{D19A5D39-93F7-49C6-B665-21F4D51A61E5}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Registration Service v1.0.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Registration Service v1.0/Registration Service v1.0.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Registration Service v1.0</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/miscellaneous/images/ojitos.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{106539C4-2324-45DD-9BB9-670C315FAA08}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/regser Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/reg_service_config.ini</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">BGH SA</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Service dedicated to uploading the test log files produced by the electrical safety test application.</Property>
+				<Property Name="TgtF_internalName" Type="Str">regser</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
+				<Property Name="TgtF_productName" Type="Str">Registration service v1.0</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{FD81198D-A2E3-4EAD-84AB-C8578E5C1BBA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Registration Service v1.0.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
